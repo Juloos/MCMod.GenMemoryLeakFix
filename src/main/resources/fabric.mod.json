@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "gen_memory_leak_fix",
+    "version": "${version}",
+    "name": "gen_memory_leak_fix",
+    "description": "A simple Fabric mod to fix the memory leaks in Minecraft's chunk generation.",
+    "authors": [
+        "Juloos"
+    ],
+    "contact": {
+    },
+    "license": "MIT",
+    "environment": "server",
+    "entrypoints": {
+        "main": [
+        ]
+    },
+    "mixins": [
+        "gen_memory_leak_fix.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*"
+    },
+    "accessWidener" : "gen_memory_leak_fix.accesswidener"
+}
